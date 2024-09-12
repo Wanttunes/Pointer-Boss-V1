@@ -1,0 +1,76 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(27, 27, 27);
+}
+/* main */
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.192);
+    width: 80%;
+    height: 90%;
+}
+main > div.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+}
+main > div.menu > div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 20%;
+}
+main > div.menu > div.logo > h1{
+    font-size: 5rem;
+    color: white;
+    text-shadow: black 5px 5px;
+}
+main > div.menu > div.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 80%;
+}
+main > div.menu > div.botoes > a{
+    width: 60%;
+    height: 10%;
+    margin: 10px 0px;
+    text-decoration: none;
+}
+main > div.menu > div.botoes > a > div.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;  
+}
+main > div.menu > div.botoes > a > div.botao:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+main > div.menu > div.botoes > a > div.botao > p{
+    font-size: 2rem;
+    color: white;
+}

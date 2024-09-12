@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pointer Boss</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loja.css">
+    <link rel="stylesheet" href="inventario.css">
+    <script type="module" src="main.js" defer></script>
+    <script type="module" src="usuario.js" defer></script>
+    <script type="module" src="boss.js" defer></script>
+    <script type="module" src="equipamento.js" defer></script>
+    <script type="module" src="loja.js" defer></script>
+    <script type="module" src="sistemaDrop.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Pointer Boss</h1>
+    </header>
+    <main>
+        <div class="level">
+            <h1 class="levelText"></h1>
+        </div>
+        <div class="bola">
+            <div class="olhos">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="boca">
+                <div></div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="equips">
+                <button class="button" id="open-inv">Equipamentos</button>
+                <button class="button" id="open-loja">Loja</button>
+            </div>
+            <div class="hp-boss">
+                <div class="hp-barra">
+                    <div class="hp-vida">
+                    </div>
+                    <div class="hp-numero">
+                        <p>100%</p>
+                    </div>  
+                </div>
+            </div>
+            <div class="equipamentos">
+                <div id="dinheiro"></div>
+                <div id="dano"></div>
+                <div id="buff"></div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p>Wanttunes</p>
+    </footer>
+
+    <div class="loja">
+        <div id="background-loja">
+            <div class="close">
+                <button id="close-loja">Fechar</button>
+            </div>
+            <div id="fundo-loja">
+                <div class="coluna-itens">
+                    <div class="itens" >
+                        <h1>Espada 1</h1>
+                        <p>dano adicional: +10</p> 
+                        <div class="button">
+                            <button class="buy-button" id="espada1">Comprar</button>
+                            <p>R$20</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 2</h1>
+                        <p>dano adicional: +20</p> 
+                        <div class="button">
+                            <button class="buy-button" id="espada2">Comprar</button>
+                            <p>R$50</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 3</h1>
+                        <p>dano adicional: +30</p> 
+                        <div class="button">
+                            <button class="buy-button" id="espada3">Comprar</button>
+                            <p>R$80</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 4</h1>
+                        <p>dano adicional: +40</p> 
+                        <div class="button">
+                            <button class="buy-button" id="espada4">Comprar</button>
+                            <p>R$100</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coluna-itens">
+                    <div class="itens">
+                        <h1>Espada 5</h1>
+                        <p>dano adicional: +80</p> 
+                        <div class="button">
+                            <button class="buy-button" id="espada5">Comprar</button>
+                            <p>R$180</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 6</h1>
+                        <p>dano adicional: +160</p>
+                         <div class="button">
+                             <button class="buy-button" id="espada6">Comprar</button>
+                             <p>R$300</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 7</h1>
+                        <p>dano adicional: +320</p>
+                         <div class="button">
+                             <button class="buy-button" id="espada7">Comprar</button>
+                             <p>R$500</p>
+                        </div>
+                    </div>
+                    <div class="itens">
+                        <h1>Espada 8</h1>
+                        <p>dano adicional: +640</p>
+                         <div class="button">
+                             <button class="buy-button" id="espada8">Comprar</button>
+                             <p>R$800</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="inventario">
+        <div id="background-inv">
+            <div class="close-inv">
+                <button id="close-inv">Fechar</button>
+            </div>
+            <div id="fundo-inv">
+                <div class="coluna-itens">
+                    <div id="buff-1" class="itens">
+                        <h1 class="nome"></h1>
+                        <p class="descricao"></p> 
+                        <div class="button">
+                            <button class="equip-button" id="Fogo">Equipar</button>
+                        </div>
+                    </div>
+                    <div id="buff-2" class="itens">
+                        <h1 class="nome"></h1>
+                        <p class="descricao"></p> 
+                        <div class="button">
+                            <button class="equip-button" id="Força">Equipar</button>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
