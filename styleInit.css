@@ -1,3 +1,5 @@
+/*sem uso
+
 *{
     font-family: 'Times New Roman', Times, serif;
     margin: 0px;
@@ -13,7 +15,7 @@ body{
     height: 100vh;
     background-color: rgb(27, 27, 27);
 }
-/* main */
+/* main 
 main{
     display: flex;
     justify-content: center;
@@ -73,4 +75,4 @@ main > div.menu > div.botoes > a > div.botao:hover{
 main > div.menu > div.botoes > a > div.botao > p{
     font-size: 2rem;
     color: white;
-}
+} 
