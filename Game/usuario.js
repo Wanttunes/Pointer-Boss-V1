@@ -33,7 +33,7 @@ export function criarPersonagem(dano, dinheiro, level, espada, buff){
             this.buff = buff
         }
     }
-    let personagemA = new user(dano, 2000, level, espada, buff);
+    let personagemA = new user(dano, dinheiro, level, espada, buff);
     return personagemA
 }
 export let personagemA = criarPersonagem(10, 0, 1, 1, "Nenhum")

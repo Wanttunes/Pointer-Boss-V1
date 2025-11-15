@@ -17,7 +17,7 @@ buff.innerText = `Buff: ${personagemA.buff}`
 let inventario = document.getElementsByClassName("inventario")[0]
 let fechar = document.getElementById("close-inv")
 let abrir = document.getElementById("open-inv")
-inventario.style.display = 'flex'
+inventario.style.display = 'none'
 
 abrir.addEventListener("click", () => {
     menuInventario()
@@ -66,11 +66,6 @@ export function buffAtualizacao(){  // TERMINAR SISTEMA DE EQUIPAMENTOS
     
 }
 
-let botao = document.getElementsByClassName("equip-button")
-
-botao.addEventListener("click", () => {
-    window.alert("Ola")
-})
 
 export function escolherBuff(){
 
